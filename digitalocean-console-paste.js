@@ -1,3 +1,7 @@
+##follow this tut: https://www.digitalocean.com/community/questions/copy-and-paste-into-console
+#Usage: Paste below code into brower's debug console
+#Paste your text into param of this function sendStrint(''); and enter this function in command.
+
 var sendString = (function(rfb, force, sendDelay) { 
 sendDelay = sendDelay || 25;
 var _q = [];
